@@ -14,7 +14,7 @@ package homework20171224;
  * @version
  * @see
  */
-public class dog {
+public class Dog {
 	String name;
 	String gender;
 	int age;
