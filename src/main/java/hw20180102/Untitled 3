@@ -1,0 +1,15 @@
+父类： 宠物类   Pet
+子类：  狗类      Dog，   猫类   Cat；
+多态的方法（eat）：各子类的不同实现 ,狗吃骨头，猫吃鱼
+
+
+
+父类： 学生类   Student
+子类： 大一类   Student1，  大二类    Student2；
+多态的方法（learn）：各子类的不同实现 ,大一学高数，大二学经济
+
+
+
+父类：学校类   School
+子类：高中类   HighSchool,  初中类   MiddleSchool ;
+多态的方法（teach）：各子类的不同实现 ,高中教高中生，初中教初中生
