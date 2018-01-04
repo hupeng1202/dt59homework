@@ -33,6 +33,12 @@ public class ListDemo {
 		LOG.info(lst.add("1aA &*"));	
 		lst.add("a");
 		lst.add("sasasa");
+		//转换成数组遍历
+		LOG.info(lst);
+		Object[] obj=lst.toArray();
+		for(Object x:obj){
+			LOG.info(x);
+		}
 		//刪除
 		//lst.clear();
 		//判斷
@@ -43,14 +49,13 @@ public class ListDemo {
 		//查詢
 		LOG.info(lst.indexOf("sasasa"));
 		LOG.info(lst.isEmpty());
-		//遍歷
-		LOG.info(lst.iterator());
+		
 		//截取
 		LOG.info(lst.subList(1, 3));
 		
 		//修改
 		LOG.info(lst.set(2, "asdfg"));
-		LOG.info(lst.listIterator(2));
+		
 		LOG.info(lst);
 	}
 
