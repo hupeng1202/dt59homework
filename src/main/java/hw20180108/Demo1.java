@@ -26,5 +26,13 @@ public class Demo1 implements Runnable{
 		
 	}
 
+	
+
+	public void setPriority(int maxPriority) {
+		
+		
+		
+	}
+
 }
 
